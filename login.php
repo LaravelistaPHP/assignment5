@@ -9,10 +9,10 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
     header('Location: manager_dashboard.php');
     exit();
 }
-//  else {
-//     header('Location: user_dashboard.php');
-//     exit();
-// }
+ else {
+    header('Location: user_dashboard.php');
+     exit();
+ }
 ?>
 
 
